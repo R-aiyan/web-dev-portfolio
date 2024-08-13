@@ -17,7 +17,11 @@
         border: none;
 }
 
-
+/* Header styles */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat; 
+background-position: top left, bottom right;}
 
 /* nav styles */
 nav{
@@ -43,3 +47,28 @@ nav{
         text-decoration: none;
         font-size: 20px;
     }
+
+
+ 
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content{max-width: 585px;}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;}
+
+.banner-description{
+    font-weight: 400;
+    font-size: 18px;}
+
+.banner-picture{ width: 580px; }   
